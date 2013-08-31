@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/scanRadios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <RadioButton
+            android:id="@+id/scanRechner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Rechner" />
+
+        <RadioButton
+            android:id="@+id/scanMonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitor" />
+
+        <RadioButton
+            android:id="@+id/scanDrucker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drucker" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start Scanvorgang" />
+
+</LinearLayout>
